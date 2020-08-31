@@ -1,0 +1,87 @@
+body {
+	margin: 0 auto;
+	background-color: gray;
+}
+.container {
+	width: 1000px;
+	height: auto;
+	background-color: white;
+	margin:auto;
+}
+.logo {
+	float: left;
+	padding: 10px;
+
+}
+.search {
+	float:right;
+	padding: 10px;
+}
+.clear {
+	clear: both;
+
+}
+.main-menu {
+	background-color: #467a02;
+
+}
+.main-menu > ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.main-menu > ul > li {
+	display: inline-block;
+}
+.main-menu > ul > li > a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	font-family: sans-serif;
+	
+}
+/*sudo*/
+.main-menu > ul > li > a:hover {
+	background-color:black;
+}
+.drop {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	display: none;
+	z-index: 999;
+	
+} 
+.drop > li > a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	font-family: sans-serif;
+	text-align:center;
+	background-color:black;
+
+	
+	
+}
+
+.drop > li > a:hover {
+	background-color:#467a02;
+}
+.main-menu > ul > li:hover .drop{
+	display: block;
+
+}
+.banner {
+	width: 1000;
+	height: 512.5px;
+	overflow: hidden;
+
+}
+.banner img{
+	width: 100%;
+	height: 512.5px;
+	
+}
